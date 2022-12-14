@@ -72,7 +72,7 @@ var Interval1 = setInterval(inicio,1);
 
 document.addEventListener('keydown', (event) =>{
     if(event.key === 'q'){
-      mais+=1;
+      mais+=2;
       musicadialogos.play();
     }
     }
@@ -131,7 +131,7 @@ function jogo(){
      //texto 1
     pincel.fillStyle = 'yellow';
     pincel.font = '20px courier new';
-    pincel.fillText('Pontos: ' + pontuacao + "/3",445,30,800);
+    pincel.fillText('Pontos: ' + pontuacao + "/2",445,30,800);
 
     //texto 2
     pincel.fillStyle = 'yellow';
